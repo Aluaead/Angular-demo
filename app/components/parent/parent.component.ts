@@ -44,6 +44,7 @@ export class ParentComponent implements OnInit {
     this.count();
   }
   delData(i) {
+    console.log(i);
     this.arr.splice(i, 1);
     this.count();
   }

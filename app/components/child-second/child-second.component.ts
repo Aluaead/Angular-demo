@@ -14,10 +14,6 @@ export class ChildSecondComponent implements OnInit {
   title: string = "todolist";
   txt: string;
 
-  index: number;
-  getIndex(i) {
-    this.index = i;
-  }
   getValue(e) {
     if (e.keyCode == 13) {
       this.Get();
