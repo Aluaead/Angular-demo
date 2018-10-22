@@ -14,12 +14,14 @@ export class CoursedatailComponent implements OnInit {
   ) { }
   course;
   courseId:number;
+  studentName;
   ngOnInit() {
     this.courseId = this.router.snapshot.params['courseId'];
 
     this.http.get('/api/course/'+this.courseId).subscribe((data)=>{
       this.course = data;
     })
+    this.studentName = ['文轩','世琪','马硕','金辀','润川'];
   }
 
 }

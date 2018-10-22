@@ -14,6 +14,8 @@ import { LessondetailComponent } from './components/lessondetail/lessondetail.co
 import { CommunityComponent } from './components/community/community.component';
 import { CourseComponent } from './components/course/course.component';
 import { CoursedatailComponent } from './components/coursedatail/coursedatail.component';
+import { InLessonsComponent } from './components/in-lessons/in-lessons.component';
+
 
 @NgModule({
   declarations: [
@@ -24,13 +26,16 @@ import { CoursedatailComponent } from './components/coursedatail/coursedatail.co
     LessondetailComponent,
     CommunityComponent,
     CourseComponent,
-    CoursedatailComponent
+    CoursedatailComponent,
+    InLessonsComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      {path:'home',component:HomeComponent},
+      {path:'home',component:HomeComponent,children:[
+        {path:'in-lessons',component:InLessonsComponent}
+      ]},
       {path:'lesson',component:LessonComponent},
       {path:'lesson/:lessonId',component:LessondetailComponent},
       {path:'course',component:CourseComponent},

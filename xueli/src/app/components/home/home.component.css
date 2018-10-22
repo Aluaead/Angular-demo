@@ -19,6 +19,7 @@ section .container{
     min-width: 840px;
     padding-left: 0;
     padding-right: 0;
+    max-width: 1020px;
 }
 .index-baes{
     margin-top: 25px;

@@ -1,0 +1,103 @@
+section{
+    padding-bottom: 20px;
+    height: 100%;
+    min-width: 300px;
+}
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1020px;
+}
+.title{
+    margin: 10px 0;
+}
+.video-player{
+    background-color: #2b2b2b;
+    margin-bottom: 20px;
+    height: 456px;
+}
+.interactive{
+    float: left;
+    width: 710px;
+}
+.interactive .panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-color: #ddd;
+    border-radius: 4px;
+}
+.interactive .panel-body{
+    padding: 15px;
+}
+.bnts{
+    margin-top: 20px;
+}
+.download-btn{
+    margin-top: 15px;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.download-btn i{
+    color: #ff6e3d;
+    font-size: 14px;
+}
+.dynamic{
+    float: right;
+    width: 220px;
+}
+.task-item{
+    min-height: 120px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.num{
+    color: #ff6e3d;
+    font-size: 16px;
+    padding-left: 3px;
+}
+.students{
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.student-item{
+    text-align: center;
+    width: 20%;
+    float: left;
+    list-style: none;
+}
+.face-img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nickname{
+    height: 20px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+footer{
+    margin: 0 auto;
+}
+.argo-footer{
+    width: 100%;
+    bottom: 0;
+    color: #a5a6a9;
+}
+.argo-footer .container{
+    padding: 20px;
+    text-align: center;
+}

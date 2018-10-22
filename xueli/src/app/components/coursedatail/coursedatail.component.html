@@ -1,0 +1,56 @@
+<!-- <img src="../../../assets/images/logo (1).png" alt=""> -->
+<section>
+  <div class="container">
+    <div class="chapter">
+      <div class="title">
+        <h3>{{course?.courseName}}</h3>
+      </div>
+      <div class="video-player">
+        {{course?.content}}
+      </div>
+      <div class="course-interactive">
+        <div class="interactive">
+          <div class="panel">
+            <div class="panel-body">
+              <div>2016级H5方向-李文轩，Angular——雪梨作业</div>
+              <div class="btns">
+                <div class="download-btn">
+                  <i class="glyphicon glyphicon-plus"></i>
+                  &nbsp;关注
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dynamic">
+          <div class="student-info">
+            <div class="task-item">
+              <div class="title">
+                <span>正在学习</span>
+                <span class="num">{{course?.person}}</span>
+                <span>人</span>
+              </div>
+              <div>
+                <ul class="students">
+                  <li class="student-item" *ngFor="let student of studentName">
+                    <img src="../../../assets/images/yonghu.png" class="face-img">
+                    <div>
+                      <span class="nickname">{{student}}</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="argo-footer">
+  <div class="container">
+    <div>
+      <span class="text">2016级软件工程H5方向-李文轩</span>
+    </div>
+  </div>
+</footer>
