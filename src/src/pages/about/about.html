@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-searchbar placeholder="双12特惠好物超低价"></ion-searchbar>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+  <div>
+    <img src="../../assets/imgs/store/bg.png" alt="">
+  </div>
+  <ul class="nav" [ngSwitch]="id">
+    <li [class.active]='flag==0' (click)="change(0)">客厅</li>
+    <li [class.active]='flag==1' (click)="change(1)">卧室</li>
+    <li [class.active]='flag==2' (click)="change(2)">餐厅</li>
+    <li [class.active]='flag==3' (click)="change(3)">书房</li>
+    <li [class.active]='flag==4' (click)="change(4)">内厅</li>
+  </ul>
+  <div [ngSwitch]="flag">
+    <div *ngSwitchCase="0">
+      <ion-grid class="txt gird">
+        <ion-row>
+          <ion-col col-6>
+            <img src="../../assets/imgs/store/list-bg-1.png">
+          </ion-col>
+          <ion-col col-6>
+            <img src="../../assets/imgs/store/list-bg-2.png" style="background-color:#e9e5e4">
+          </ion-col>
+          <ion-col col-6>
+            <img src="../../assets/imgs/store/list-bg-3.png">
+          </ion-col>
+          <ion-col col-6>
+            <img src="../../assets/imgs/store/list-bg-4.png">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div *ngSwitchCase="1">
+
+    </div>
+  </div>
+
+</ion-content>

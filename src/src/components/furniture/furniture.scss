@@ -1,0 +1,64 @@
+furniture {
+    .sli{
+        height:200px;
+        img{
+            width: 100%;
+        }
+    }
+    .txt{
+        img{
+            width: 100%;
+            height: 100px;
+        }
+        ion-col{
+            position: relative;
+            overflow: hidden;
+            top:15px;
+            p{
+                position:absolute;
+                margin:0;
+                width: 92%;
+                height: 100px;
+                line-height: 100px;
+                bottom: 10px;
+                text-align: center;
+                background-color: rgba(0,0,0,0.5);
+                color: #fff;
+            }
+        }
+    }
+    .subtitle{
+        margin-top: 20px;
+        letter-spacing: 5px;
+    }
+    .goods{
+        img{
+            width: 100%;
+            height: 120px;
+        }
+        ion-col{
+            position: relative;
+            div{
+                position: absolute;
+                display: flex;
+                justify-content:space-around;
+                line-height: 34px;
+                height: 34px;
+                width: 94%;
+                bottom: 10px;
+                color: #fff;
+                background-color: rgba(0,0,0,0.5);
+                p{
+                    margin:0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding-left: 25px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+
+        }
+    }
+}

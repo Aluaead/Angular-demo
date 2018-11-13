@@ -1,0 +1,30 @@
+page-contact {
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+       
+    }
+    .box{
+        position: relative;
+        img{
+            min-width: 100%;
+            min-height: 100%;
+            display: block;
+        }
+        .content{
+            position: absolute;
+            text-align: center;
+            width: 195px;
+            height: 117px;
+            color: #fff;
+            background-color: rgba(0,0,0,0.3);
+            right: 90px;
+            bottom: 50px;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
